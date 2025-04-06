@@ -32,8 +32,8 @@ export default function OpportunityDetails({
                 src="/img/logo.webp"
                 alt="Company Logo"
                 className="company-logo"
-                width={107}
-                height={72}
+                width={50}
+                height={50}
               />
               <h1 className="opportunity-title">
                 {opportunity.title || "Untitled Opportunity"}
@@ -143,11 +143,11 @@ export default function OpportunityDetails({
               <h2>Contact Person</h2>
               <div className="contact-person-details">
                 <Image
-                  src="/img/logo.webp"
+                  src="/img/LoveMagenta.webp"
                   alt="Contact Person"
                   className="contact-person-image"
-                  width={120}
-                  height={80}
+                  width={690}
+                  height={570}
                 />
                 <div className="contact-person-info">
                   <p>

@@ -327,7 +327,7 @@ export default function Home() {
   const showAdminDashboard = () => {
     if (!user || user.accountType !== "company") {
       alert(
-        "You must be logged in as a Company user to access the Admin Dashboard."
+        "You must be logged in as a Telekom user to access the Admin Dashboard."
       );
       return;
     }
@@ -349,10 +349,10 @@ export default function Home() {
             <nav className="nav">
               <Image
                 src="/img/logo.webp"
-                alt="Company logo"
+                alt="Deutsche Telekom logo"
                 className="nav__logo"
                 id="logo"
-                width={83}
+                width={56}
                 height={56}
               />
               <ul className="nav__links">
@@ -402,7 +402,7 @@ export default function Home() {
                     // Only allow if user is logged in as a Company user.
                     if (!user || user.accountType !== "company") {
                       alert(
-                        "You must be logged in as a Company user to publish."
+                        "You must be logged in as a Deutsche Telekom user to publish."
                       );
                       return;
                     }
@@ -526,7 +526,7 @@ export default function Home() {
                 ) : (
                   <div className="container">
                     <h1 className="intro-title">
-                      Headstart your career with the Company
+                      Headstart your career with Deutsche Telekom
                     </h1>
                     <p className="intro-text">
                       Search from thousands of student opportunities
@@ -598,10 +598,10 @@ export default function Home() {
 
           {/* Newsletter Subscription Section */}
           <section id="newsletter-section" className="newsletter">
-            <h2>Top Company opportunities in your inbox</h2>
+            <h2>Top opportunities in your inbox</h2>
             <p>
-              Subscribe to the Company Portal newsletter to recieve
-              latest opportunities once a week.
+              Subscribe to the Deutsche Telekom Portal newsletter to
+              recieve latest opportunities once a week.
             </p>
             <form action="#">
               <div className="select-field">
@@ -653,8 +653,8 @@ export default function Home() {
           <footer className="main-footer">
             <div className="container">
               <p>
-                &copy; 2025 The Company Student Platfrom. All Rights
-                Reserved.
+                &copy; 2025 The Deutsche Telekom Student Platfrom. All
+                Rights Reserved.
               </p>
             </div>
           </footer>

@@ -6,7 +6,7 @@ class PDFView {
     const doc = new jsPDF();
 
     // Company color
-    const companyColor = [0, 119, 182];
+    const companyColor = [226, 0, 116];
 
     // --- Header Section ---
     // Pink rectangle
@@ -29,7 +29,7 @@ class PDFView {
     doc.setFont("helvetica", "bold");
     doc.setFontSize(22);
     doc.setTextColor(255, 255, 255);
-    doc.text("Company Opportunity", 25, 25);
+    doc.text("Deutsche Telekom Opportunity", 25, 25);
     doc.text(`${opportunity.title}`, 25, 33);
 
     // Opportunity Information in Header
@@ -135,14 +135,14 @@ class PDFView {
     );
 
     // --- Footer Section ---
-    const logo = await this.loadImage("img/logo.webp");
-    doc.addImage(logo, "webp", 20, 240, 50, 40);
+    const logo = await this.loadImage("img/logo2PDF.webp");
+    doc.addImage(logo, "webp", 20, 240, 30, 35);
 
     doc.setFontSize(14);
     doc.setTextColor(0, 0, 0);
     // Footer Text
     const footerText = [
-      "The Company Inc.",
+      "Deutsche Telekom AG",
       `Contact: ${opportunity.contactPerson}`,
       `${opportunity.contactPersonEmail}`,
     ];

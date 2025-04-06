@@ -9,7 +9,8 @@ const rubik = Rubik({
 
 export const metadata = {
   title: "Student-Company Platform",
-  description: "Connect with student opportunities at the Company",
+  description:
+    "Connect with student opportunities at Deutsche Telekom",
 };
 
 export default function RootLayout({ children }) {

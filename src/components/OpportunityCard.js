@@ -4,11 +4,11 @@ export default function OpportunityCard({ opportunity }) {
   return (
     <div className="opportunity-card">
       <Image
-        src="/img/logo.webp"
+        src="/img/logo2.webp"
         alt="Company logo"
         className="card-logo"
-        width={60}
-        height={40}
+        width={50}
+        height={50}
       />
       <div className="card-info">
         <h3 className="card-type">{opportunity.type || "N/A"}</h3>
