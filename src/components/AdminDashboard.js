@@ -116,7 +116,7 @@ const AdminDashboard = ({
           <div className="admin-search-inputs">
             <input
               type="text"
-              placeholder="Try Applications from Zagreb..."
+              placeholder="Try Applications from Berlin..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               required
