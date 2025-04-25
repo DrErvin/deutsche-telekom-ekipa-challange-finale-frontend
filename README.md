@@ -1,3 +1,7 @@
+# Ekipa x Deutsche Telekom Project - Student-Company Platform (Frontend)
+
+This is the Ekipa project frontend repository for the Student-Copmany Platform, developed in collaboration with Deutsche Telekom. The platform connects students with various opportunities such as internships, jobs, and mentorship programs.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
